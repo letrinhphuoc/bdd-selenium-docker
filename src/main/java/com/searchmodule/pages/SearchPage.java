@@ -53,6 +53,7 @@ public class SearchPage {
         this.wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(by, 0));
         System.out.println("Search Result : " + this.allVideos.size());
         return this.allVideos.size();
+        // comment by Phuoc Le
     }
 
 }
